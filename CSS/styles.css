@@ -1,0 +1,90 @@
+/**********************TAG SELECTORS**********************/
+
+body {
+  margin: 0;
+}
+table {
+  border-spacing: 0;
+}
+
+/**********************CLASS SELECTORS**********************/
+
+.top-container {
+  padding: 20px;
+  border-style: solid;
+  border-width: 10px;
+  height: 200px;
+  width: 200px;
+  background-color: #00818a;
+}
+
+.middle-container {
+  border-style: solid;
+  border-width: 20px;
+  background-color: red;
+  height: 200px;
+  margin: 0 0 0 260px;
+  width: 200px;
+}
+
+.middle-container:hover {
+  background-color: blue;
+  color: rgba(41, 140, 70, 1);
+}
+
+.meg {
+  text-align: center;
+}
+
+.nut{
+  text-align: center;
+}
+
+.bottom-container {
+  border-style: solid;
+  border-width: 10px;
+  background-color: blue;
+  height: 200px;
+  margin: 0 0 0 500px;
+  width: 200px;
+}
+
+.bottom-container:hover {
+  background-color: red;
+  color: rgba(218, 140, 62, 1);
+}
+
+.floor-container {
+  border-color: black;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 100%;
+  margin: auto;
+  height: 250px;
+  width: 250px;
+}
+
+.really{
+  font-size: 18px;
+  text-align: center;
+  color: grey;
+}
+
+.true{
+  font-size: 75px;
+  text-align: center;
+  color: white;
+}
+
+.floor-container:hover {
+  background-color: grey;
+}
+.stickman {
+  height: 230px;
+  z-index: 1;
+  }
+
+.stickman2 {
+  height: 230px;
+  z-index: 2;
+    }
