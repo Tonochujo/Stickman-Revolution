@@ -1,14 +1,13 @@
 /**********************TAG SELECTORS**********************/
-
 body {
   margin: 0;
 }
+
 table {
   border-spacing: 0;
 }
 
 /**********************CLASS SELECTORS**********************/
-
 .top-container {
   padding: 20px;
   border-style: solid;
@@ -32,20 +31,12 @@ table {
   color: rgba(41, 140, 70, 1);
 }
 
-.meg {
-  text-align: center;
-}
-
-.nut{
-  text-align: center;
-}
-
 .bottom-container {
   border-style: solid;
   border-width: 10px;
   background-color: blue;
   height: 200px;
-  margin: 0 0 0 500px;
+  margin: 0 0 50px 500px;
   width: 200px;
 }
 
@@ -54,37 +45,55 @@ table {
   color: rgba(218, 140, 62, 1);
 }
 
-.floor-container {
+.sun {
   border-color: black;
   border-width: thick;
   border-style: solid;
   border-radius: 100%;
+  display: inline-block;
   margin: auto;
   height: 250px;
   width: 250px;
 }
 
-.really{
-  font-size: 18px;
-  text-align: center;
-  color: grey;
+.sun:hover {
+  background-color: yellow;
 }
 
-.true{
-  font-size: 75px;
-  text-align: center;
-  color: white;
+.cloud-text {
+  text-align: right;
 }
 
-.floor-container:hover {
-  background-color: grey;
+/**********************IMAGES**********************/
+.cloud2 {
+  display: inline-block;
 }
+
+.cloud3 {
+  display: inline-block;
+  width: 300px;
+  height: 96px;
+}
+
+.mountain {
+  display: block;
+}
+
 .stickman {
   height: 230px;
   z-index: 1;
-  }
+}
 
 .stickman2 {
   height: 230px;
   z-index: 2;
-    }
+}
+
+/**********************TEXT**********************/
+.this {
+  font-style: italic;
+}
+
+.website {
+  display: inline-block;
+}
